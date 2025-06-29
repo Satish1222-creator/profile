@@ -1,0 +1,67 @@
+body{
+    font-family: monospace;
+    
+}
+header{
+    background-color: aqua;
+    height:100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+
+}
+.box{
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    height: 40px;
+    width: 140px;
+    border: none;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: blue;
+    color: white;
+}
+section{
+    height: 100vh;
+    border: 2px black;
+    background-color:aliceblue;
+}
+main{
+    padding: 20px;
+    font-size: large;
+}
+header h1{
+    color: white;
+    margin: 0;
+}
+h3{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+
+}
+p{ font-size: 15px;
+}
+.icons a{
+    text-decoration: none;
+    padding: 13px;
+    background-color: white;
+    margin: 13px;
+    border-radius: 50%;
+
+}
+.icons a i{
+    font-size: large; 
+    color: black;
+    opacity: 0.9;
+}
+body{
+    max-width: 1440px;
+}
